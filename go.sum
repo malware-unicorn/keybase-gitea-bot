@@ -1,4 +1,0 @@
-code.gitea.io/gitea/modules/structs v0.0.0-20190610152049-835b53fc259c/go.mod h1:e/Ukqo229PbsSEymXfLWmNz4g04hwnFml5lW6U+0Azs=
-github.com/go-sql-driver/mysql v1.5.0/go.mod h1:DCzpHaOWr8IXmIStZouvnhqoel9Qv2LBy8hT2VhHyBg=
-github.com/malware-unicorn/go-keybase-chat-bot v0.0.0-20200221225809-f14ebe078ce8/go.mod h1:yWLMRlYkN/+1NMbkfq2L+mzgzO64BjAyxxmALEuEIP4=
-golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e/go.mod h1:RxMgew5VJxzue5/jJTE5uejpjVlOe/izrB70Jof72aM=

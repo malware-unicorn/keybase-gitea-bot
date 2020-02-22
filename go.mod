@@ -1,4 +1,4 @@
-module github.com/vladionescu/keybase-gitea-bot
+module github.com/malware-unicorn/keybase-gitea-bot
 
 go 1.13
 

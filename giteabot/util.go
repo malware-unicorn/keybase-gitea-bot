@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	gitea "code.gitea.io/gitea/modules/structs"
-	"github.com/keybase/go-keybase-chat-bot/kbchat/types/chat1"
+	"github.com/malware-unicorn/go-keybase-chat-bot/kbchat/types/chat1"
 	"github.com/malware-unicorn/managed-bots/base"
 )
 

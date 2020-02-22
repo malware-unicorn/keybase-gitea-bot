@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/keybase/go-keybase-chat-bot/kbchat"
-	"github.com/keybase/go-keybase-chat-bot/kbchat/types/chat1"
+	"github.com/malware-unicorn/go-keybase-chat-bot/kbchat"
+	"github.com/malware-unicorn/go-keybase-chat-bot/kbchat/types/chat1"
 	"github.com/malware-unicorn/managed-bots/base"
-	"github.com/vladionescu/keybase-gitea-bot/giteabot"
+	"github.com/malware-unicorn/keybase-gitea-bot/giteabot"
 	"golang.org/x/sync/errgroup"
 )
 
