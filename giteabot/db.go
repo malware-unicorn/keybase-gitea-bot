@@ -5,7 +5,7 @@ import (
 
 	"github.com/keybase/go-keybase-chat-bot/kbchat/types/chat1"
 
-	"github.com/keybase/managed-bots/base"
+	"github.com/malware-unicorn/managed-bots/base"
 )
 
 type DB struct {

@@ -8,7 +8,7 @@ import (
 
 	gitea "code.gitea.io/gitea/modules/structs"
 	"github.com/keybase/go-keybase-chat-bot/kbchat"
-	"github.com/keybase/managed-bots/base"
+	"github.com/malware-unicorn/managed-bots/base"
 )
 
 type HTTPSrv struct {

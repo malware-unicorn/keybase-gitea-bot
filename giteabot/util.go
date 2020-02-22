@@ -8,7 +8,7 @@ import (
 
 	gitea "code.gitea.io/gitea/modules/structs"
 	"github.com/keybase/go-keybase-chat-bot/kbchat/types/chat1"
-	"github.com/keybase/managed-bots/base"
+	"github.com/malware-unicorn/managed-bots/base"
 )
 
 // EventType represents a Gitea webhook event
@@ -134,7 +134,7 @@ func formatCommitString(commit string, maxLen int) string {
 	return firstLine
 }
 
-// Borrowed from https://github.com/keybase/managed-bots/blob/master/base/git/git.go (3dbf0f6)
+// Borrowed from https://github.com/malware-unicorn/managed-bots/blob/master/base/git/git.go (3dbf0f6)
 func FormatPushMsg(username string, repo string, branch string, numCommits int, messages []string, commitURL string) (res string) {
 	res = fmt.Sprintf("%s pushed %d commit", username, numCommits)
 	if numCommits != 1 {
