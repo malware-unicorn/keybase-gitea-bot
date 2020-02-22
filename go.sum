@@ -52,6 +52,8 @@ github.com/malware-unicorn/go-keybase-chat-bot v0.0.0-20200222003845-ff7b677a43d
 github.com/malware-unicorn/go-keybase-chat-bot v0.0.0-20200222003845-ff7b677a43db/go.mod h1:yWLMRlYkN/+1NMbkfq2L+mzgzO64BjAyxxmALEuEIP4=
 github.com/malware-unicorn/managed-bots v0.0.0-20200222001928-b952eb070ea5 h1:uRxH1cjrREyy17HMn7//3ocynOvDJW0ZZhugNXg5gZ4=
 github.com/malware-unicorn/managed-bots v0.0.0-20200222001928-b952eb070ea5/go.mod h1:FhYb8okjYZdh0YfsPqY/IBUmQBmVIHO8QYTnDvxpp1U=
+github.com/malware-unicorn/managed-bots v0.0.0-20200222004157-7f64c07085df h1:GFmfalRDveCsF5L6/gL2iVPzcTNZv8vJjp+5gdnnsx4=
+github.com/malware-unicorn/managed-bots v0.0.0-20200222004157-7f64c07085df/go.mod h1:FhYb8okjYZdh0YfsPqY/IBUmQBmVIHO8QYTnDvxpp1U=
 github.com/olivere/elastic v6.2.27+incompatible/go.mod h1:J+q1zQJTgAz9woqsbVRqGeB5G1iqDKVBWLNSYW8yfJ8=
 github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
