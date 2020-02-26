@@ -48,10 +48,10 @@ github.com/kr/pretty v0.0.0-20150520163514-e6ac2fc51e89/go.mod h1:Bvhd+E3laJ0AVk
 github.com/kr/text v0.0.0-20150520163712-e373e137fafd h1:ohpc+F5FseC/PPrR1wz2WcZxOc4kplnJ39pGbFlj/eY=
 github.com/kr/text v0.0.0-20150520163712-e373e137fafd/go.mod h1:sjUstKUATFIcff4qlB53Kml0wQPtJVc/3fWrmuUmcfA=
 github.com/mailru/easyjson v0.7.0/go.mod h1:KAzv3t3aY1NaHWoQz1+4F1ccyAH66Jk7yos7ldAVICs=
-github.com/malware-unicorn/go-keybase-chat-bot v1.0.6 h1:2S7Agfdj89PneFxUxIkng+AIZavLtNEcpgehnD582tY=
-github.com/malware-unicorn/go-keybase-chat-bot v1.0.6/go.mod h1:Th4HpkqoD0ZaBtlPHReNllnKlO1J/fwc+lmQULTTLRE=
-github.com/malware-unicorn/managed-bots v1.0.6 h1:IRyp8d+rQ0GO4bbd86Qp27LwLs2E4LhqNeEkJAXvYFc=
-github.com/malware-unicorn/managed-bots v1.0.6/go.mod h1:PmnDwnq7s33vMdZxNYtGuPhb5jquRqnfNTFh9snRQIU=
+github.com/malware-unicorn/go-keybase-chat-bot v1.0.9 h1:oFRrGriepLqbznXifArw+7VboQ8BWOlRbScMy9kGNUw=
+github.com/malware-unicorn/go-keybase-chat-bot v1.0.9/go.mod h1:Th4HpkqoD0ZaBtlPHReNllnKlO1J/fwc+lmQULTTLRE=
+github.com/malware-unicorn/managed-bots v1.0.9 h1:/nmquXh8v/c0gNZG8i3bmWmXvoaMfH6v9RlSOwzJ89A=
+github.com/malware-unicorn/managed-bots v1.0.9/go.mod h1:WGrLQlA5a1uoPuxFBvavIQbveuTraSV1IOdPOvKx+Tw=
 github.com/olivere/elastic v6.2.27+incompatible/go.mod h1:J+q1zQJTgAz9woqsbVRqGeB5G1iqDKVBWLNSYW8yfJ8=
 github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
