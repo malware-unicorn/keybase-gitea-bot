@@ -15,9 +15,8 @@ rm -rf ./src/github.com/keybase/client/go/vendor/github.com/keybase/go-framed-ms
 rm -rf ./src/github.com/keybase/client/go/vendor/github.com/keybase/backoff
 cd $GOPATH
 mv ./src/github.com/malware-unicorn/keybase-bot-api/src/github.com/keybase ./src/github.com/keybase
-
+git clone https://github.com/keybase/go-framed-msgpack-rpc.git ./src/github.com/keybase/go-framed-msgpack-rpc
 $GOBIN get -v github.com/araddon/dateparse
-$GOBIN get -v github.com/keybase/go-framed-msgpack-rpc/rpc
 $GOBIN get -v github.com/keybase/backoff
 $GOBIN get -v github.com/keybase/msgpackzip
 $GOBIN get -v github.com/keybase/go-codec
