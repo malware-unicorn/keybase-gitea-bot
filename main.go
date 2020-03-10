@@ -11,7 +11,7 @@ import (
 	"github.com/malware-unicorn/go-keybase-chat-bot/kbchat"
 	"github.com/malware-unicorn/go-keybase-chat-bot/kbchat/types/chat1"
 	"github.com/malware-unicorn/managed-bots/base"
-	"github.com/malware-unicorn/keybase-gitea-bot/giteabot"
+	"./giteabot"
 	"golang.org/x/sync/errgroup"
 )
 
@@ -141,13 +141,16 @@ func (s *BotServer) Go() (err error) {
 	}
 	defer sdb.Close()
 	db := giteabot.NewDB(sdb)
-
+  fmt.Printf("AdvertiseCommands\n")
 	if _, err := s.kbc.AdvertiseCommands(s.makeAdvertisement()); err != nil {
 		s.Errorf("advertise error: %s", err)
+		fmt.Printf("advertise error: %s\n", err)
 		return err
 	}
+	fmt.Printf("SendAnnouncement\n")
 	if err := s.SendAnnouncement(s.opts.Announcement, "🦜 chirp. chirp."); err != nil {
 		s.Errorf("failed to announce self: %s", err)
+		fmt.Printf("failed to announce self: %s\n", err)
 	}
 
 	debugConfig := base.NewChatDebugOutputConfig(s.kbc, s.opts.ErrReportConv)
