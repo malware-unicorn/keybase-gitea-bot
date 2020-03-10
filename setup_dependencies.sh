@@ -1,4 +1,4 @@
-GOBIN="$PWD/../go/bin/go"
+GOBIN="go"
 export GOPATH="$PWD"
 
 
