@@ -1,14 +1,23 @@
 GOBIN="$PWD/../go/bin/go"
 export GOPATH="$PWD"
 
+
+mkdir ./src/github.com/malware-unicorn/
+git clone https://github.com/malware-unicorn/keybase-bot-api.git ./src/github.com/malware-unicorn/keybase-bot-api
+cd ./src/github.com/malware-unicorn/keybase-bot-api
+git submodule init
+git submodule update
+# Remove the usage of vendors to force our latest version:
+rm -rf ./src/github.com/keybase/client/go/vendor/github.com/keybase/go-framed-msgpack-rpc
+rm -rf ./src/github.com/keybase/client/go/vendor/github.com/keybase/backoff
+cd $GOPATH
+mv ./src/github.com/malware-unicorn/keybase-bot-api/src/github.com/keybase ./src/github.com/keybase
+
 $GOBIN get -v github.com/araddon/dateparse
 $GOBIN get -v github.com/keybase/go-framed-msgpack-rpc/rpc
 $GOBIN get -v github.com/keybase/backoff
 $GOBIN get -v github.com/keybase/msgpackzip
 $GOBIN get -v github.com/keybase/go-codec
-# Remove the usage of vendors to force our latest version:
-rm -rf ./src/github.com/keybase/client/go/vendor/github.com/keybase/go-framed-msgpack-rpc
-rm -rf ./src/github.com/keybase/client/go/vendor/github.com/keybase/backoff
 $GOBIN get -v golang.org/x/sync/errgroup
 $GOBIN get -v golang.org/x/oauth2
 $GOBIN get -v github.com/stretchr/testify/require
