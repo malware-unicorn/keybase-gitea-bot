@@ -2,7 +2,10 @@ GOBIN="$PWD/../go/bin/go"
 export GOPATH="$PWD"
 
 
+mkdir ./src/github.com
 mkdir ./src/github.com/malware-unicorn/
+git clone https://github.com/malware-unicorn/managed-bots.git ./src/github.com/malware-unicorn/managed-bots
+git clone https://github.com/malware-unicorn/go-keybase-chat-bot.git ./src/github.com/malware-unicorn/go-keybase-chat-bot
 git clone https://github.com/malware-unicorn/keybase-bot-api.git ./src/github.com/malware-unicorn/keybase-bot-api
 cd ./src/github.com/malware-unicorn/keybase-bot-api
 git submodule init
